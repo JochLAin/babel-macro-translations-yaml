@@ -1,7 +1,7 @@
 {
-  "name": "@jochlain/translations",
-  "version": "1.2.6",
-  "description": "Translation module that support Intl format",
+  "name": "@jochlain/translations-yaml",
+  "version": "1.0.0",
+  "description": "Babel macro for @jochlain/translations and YAML files",
   "scripts": {
     "build": "npx tsc",
     "test": "npx jest",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JochLAin/translations.git"
+    "url": "git+https://github.com/JochLAin/babel-macro-translations-yaml.git"
   },
   "keywords": [
     "translations",
@@ -19,16 +19,17 @@
     "webpack",
     "encore",
     "symfony",
-    "node"
+    "node",
+    "yaml"
   ],
   "author": "Jocelyn Faihy <jocelyn.faihy@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JochLAin/translations/issues"
   },
-  "homepage": "https://github.com/JochLAin/translations#readme",
+  "homepage": "https://github.com/JochLAin/babel-macro-translations-yaml#readme",
   "dependencies": {
-    "@jochlain/babel-macro-translations": "^1.0.0",
+    "@jochlain/translations-json": "^1.0.0",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
