@@ -1,0 +1,40 @@
+{
+  "name": "@jochlain/translations",
+  "version": "1.2.6",
+  "description": "Translation module that support Intl format",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx jest",
+    "watch": "npx tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JochLAin/translations.git"
+  },
+  "keywords": [
+    "translations",
+    "translation",
+    "traductions",
+    "traduction",
+    "webpack",
+    "encore",
+    "symfony",
+    "node"
+  ],
+  "author": "Jocelyn Faihy <jocelyn.faihy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JochLAin/translations/issues"
+  },
+  "homepage": "https://github.com/JochLAin/translations#readme",
+  "dependencies": {
+    "@jochlain/babel-macro-translations": "^1.0.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
