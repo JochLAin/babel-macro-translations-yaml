@@ -1,6 +1,6 @@
 # @jochlain/translations-yaml
 
-Babel macro for [@jochlain/translations](https://www.npmjs.com/package/@jochlain/translations) and JSON files
+Babel macro for [@jochlain/translations](https://www.npmjs.com/package/@jochlain/translations) and YAML files
 
 > **Disclaimer :** This module is inspired from [babel macros from fontawesome](https://fontawesome.com/docs/web/use-with/react/add-icons).
 
