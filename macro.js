@@ -1,12 +1,13 @@
 var getTranslationMacro = require("@jochlain/translations-json").default;
 var { createMacro } = require("babel-plugin-macros");
-var yaml = require("js-yaml");
 
-module.exports = createMacro(getTranslationMacro({
-    extension: /\.ya?ml$/,
+var macro = getTranslationMacro({
+    extension: /\.json$/,
     load: function (content) {
-        return yaml.load(content);
+        return JSON.parse(content);
     },
-}), {
+});
+
+module.exports = createMacro(macro, {
     configName: '@jochlain/translations-yaml',
 });
