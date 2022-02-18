@@ -1,6 +1,6 @@
 {
   "name": "@jochlain/translations-yaml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Babel macro for @jochlain/translations and YAML files",
   "scripts": {
     "build": "npx tsc",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/JochLAin/babel-macro-translations-yaml#readme",
   "dependencies": {
-    "@jochlain/translations-json": "^1.1.0",
+    "@jochlain/translations-json": "^1.1.4",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
