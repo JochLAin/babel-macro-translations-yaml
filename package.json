@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/JochLAin/babel-macro-translations-yaml#readme",
   "dependencies": {
-    "@jochlain/translations-json": "^1.1.3",
+    "@jochlain/translations-json": "^1.1.4",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
